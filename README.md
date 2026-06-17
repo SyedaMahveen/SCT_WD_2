@@ -14,3 +14,7 @@
 - HTML
 - CSS
 - JavaScript
+
+## Output
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5dc6dec4-1920-4737-8d34-c098fa2b256b" />
