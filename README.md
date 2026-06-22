@@ -1,21 +1,98 @@
+
+
 # SCT_WD_2
 
 # Calculator Web Application
 
+## Task 2 - SkillCraft Technology Web Development Internship
+
+This project is a fully functional and responsive Calculator Web Application developed as part of Task 2 of the SkillCraft Technology Web Development Internship.
+
+The calculator performs basic arithmetic operations and demonstrates JavaScript DOM manipulation, event handling, keyboard support, and responsive web design.
+
+
+
 ## Features
-- Basic arithmetic operations
-- Addition, Subtraction, Multiplication, Division
-- Percentage calculation
-- Keyboard input support
-- Error handling
-- Clear and Delete buttons
+
+✅ Addition, Subtraction, Multiplication, and Division
+
+✅ Percentage Calculation
+
+✅ Clear Screen Functionality
+
+✅ Delete/Backspace Functionality
+
+✅ Decimal Number Support
+
+✅ Keyboard Input Support
+
+✅ Error Handling
+
+✅ Responsive Design
+
+✅ Interactive Hover Effects
+
+✅ Modern Glassmorphism UI
+
+✅ Mobile-Friendly Layout
+
+
 
 ## Technologies Used
-- HTML
-- CSS
+
+- HTML5
+- CSS3
 - JavaScript
 
-## Output
 
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/5dc6dec4-1920-4737-8d34-c098fa2b256b" />
-<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/93fcea62-466f-4e3b-a897-48a4d330de20" />
+## Project Structure
+
+
+SCT_WD_2/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
+## Learning Outcomes
+
+Through this project, I learned:
+
+- JavaScript DOM Manipulation
+- Event Handling
+- Keyboard Events
+- Responsive Web Design
+- CSS Grid Layout
+- Interactive UI Design
+- Error Handling in JavaScript
+- Building Real-World Web Applications
+
+
+
+## Future Enhancements
+
+- Scientific Calculator Functions
+- Dark/Light Theme Toggle
+- Calculation History
+- Memory Operations
+- Advanced Mathematical Operations
+
+
+
+## Internship
+
+SkillCraft Technology - Web Development Internship
+
+
+
+## Author
+
+Mahveen Sultana
+
+## Live Demo
+
+
+
+
