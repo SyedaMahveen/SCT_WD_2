@@ -1,45 +1,42 @@
 const display = document.getElementById("display");
 
-function appendValue(value){
-    display.value += value;
+function append(value){
+display.value += value;
 }
 
 function clearDisplay(){
-    display.value = "";
+display.value = "";
 }
 
 function deleteLast(){
-    display.value = display.value.slice(0,-1);
+display.value = display.value.slice(0,-1);
 }
 
 function calculate(){
-    try{
-        display.value = eval(display.value);
-    }
-    catch{
-        display.value = "Error";
-    }
+try{
+display.value = eval(display.value);
+}
+catch{
+display.value = "Error";
+}
 }
 
-document.addEventListener("keydown",(event)=>{
+document.addEventListener("keydown",function(e){
 
-    const key = event.key;
+if(!isNaN(e.key) || "+-*/.%".includes(e.key)){
+display.value += e.key;
+}
 
-    if(
-        "0123456789+-*/.%".includes(key)
-    ){
-        display.value += key;
-    }
+if(e.key==="Enter"){
+calculate();
+}
 
-    else if(key==="Enter"){
-        calculate();
-    }
+if(e.key==="Backspace"){
+deleteLast();
+}
 
-    else if(key==="Backspace"){
-        deleteLast();
-    }
+if(e.key==="Escape"){
+clearDisplay();
+}
 
-    else if(key==="Escape"){
-        clearDisplay();
-    }
 });
