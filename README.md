@@ -80,6 +80,8 @@ Through this project, I learned:
 - Advanced Mathematical Operations
 
 
+## Live demo
+ https://syedamahveen.github.io/SCT_WD_2/
 
 ## Internship
 
